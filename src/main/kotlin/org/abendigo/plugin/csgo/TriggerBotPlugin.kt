@@ -15,7 +15,7 @@ object TriggerBotPlugin : InGamePlugin(name = "Trigger Bot", duration = 32) {
 
 	private const val LEGIT = true
 
-	private const val MIN_SCOPE_DURATION = 85
+	private const val MIN_SCOPE_DURATION = 60
 	private const val MAX_SCOPE_DURATION = 160
 
 	private const val BOLT_ACTION_ONLY = true
