@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit.SECONDS
 const val DEBUG = false
 
 const val TRUE_MOUSE_MOVEMENT = false // must be true to bypass FaceIT (must configure below settings)
-const val IN_GAME_SENS = 2.0F // set this to your in-game sensitivity
+const val IN_GAME_SENS = 4.2F // set this to your in-game sensitivity
 const val IN_GAME_PITCH = 0.022F
 const val IN_GAME_YAW = 0.022F
 
