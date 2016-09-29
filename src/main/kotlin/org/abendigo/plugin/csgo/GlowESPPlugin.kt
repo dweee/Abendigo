@@ -11,11 +11,11 @@ object GlowESPPlugin : InGamePlugin("Glow ESP", duration = 4) {
 	override val author = "Jire"
 	override val description = "Outlines players with a glow"
 
-	private const val PLAYER_ALPHA = 0.8F
-	private const val REDUCE_ALPHA_UNSPOTTED = 0.7F /* set to 1.0F to not reduce */
+	private const val PLAYER_ALPHA = 0.9F
+	private const val REDUCE_ALPHA_UNSPOTTED = 0.6F /* set to 1.0F to not reduce */
 
 	private const val SHOW_TEAM = true
-	private const val SHOW_DORMANT = false
+	private const val SHOW_DORMANT = true
 
 	private const val SHOW_BOMB = true
 	private const val SHOW_WEAPONS = true
