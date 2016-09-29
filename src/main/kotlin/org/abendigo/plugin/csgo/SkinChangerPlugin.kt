@@ -19,7 +19,7 @@ object SkinChangerPlugin : InGamePlugin("Skin Changer", duration = 1) {
 	private const val APPLY_KEY = KeyEvent.VK_F1
 
 	private const val DEFAULT_SKIN_SEED = 0
-	private const val DEFAULT_STATTRAK = -1 // -1 for no StatTrak, 0+ for StatTrak amount
+	private const val DEFAULT_STATTRAK = 9999 // -1 for no StatTrak, 0+ for StatTrak amount
 	private const val DEFAULT_WEAR = 0.0001F // lower = less wear, higher = more wear
 	private const val DEFAULT_QUALITY = 1
 
