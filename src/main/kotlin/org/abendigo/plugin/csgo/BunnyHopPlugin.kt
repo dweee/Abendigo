@@ -16,9 +16,9 @@ object BunnyHopPlugin : InGamePlugin("Bunny Hop", duration = 8) {
 	private const val LEGIT = true
 
 	private const val MIN_DELAY = 1
-	private const val MAX_DELAY = 5
+	private const val MAX_DELAY = 4
 
-	private const val FAIL_CHANCE = 3
+	private const val FAIL_CHANCE = 10
 
 	private var holdingSpace = false
 	private var firstJump = true
