@@ -21,11 +21,11 @@ object FOVAimPlugin : InGamePlugin(name = "FOV Aim", duration = 20) {
 	private const val FORCE_AIM_ENHANCEMENT = 1.4F /* set to 1.0F for no enhancement */
 
 	private const val LOCK_FOV = 20
-	private const val UNLOCK_FOV = LOCK_FOV * 1.2
+	private const val UNLOCK_FOV = LOCK_FOV * 2
 	private const val NEVER_STICK = true
 
-	private const val SMOOTHING_MIN = 8F
-	private const val SMOOTHING_MAX = 11F
+	private const val SMOOTHING_MIN = 7F
+	private const val SMOOTHING_MAX = 10F
 
 	private const val JUMP_REDUCTION = 0.3F
 
